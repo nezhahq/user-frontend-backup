@@ -445,7 +445,7 @@ export default function Servers() {
 			{inline === "1" && (
 				<section
 					ref={containerRef}
-					className="flex flex-col gap-2 overflow-x-scroll scrollbar-hidden mt-6 server-inline-list"
+					className="flex flex-col gap-2 overflow-x-scroll p-px scrollbar-hidden mt-6 server-inline-list"
 				>
 					{filteredServers.map((serverInfo) => (
 						<ServerCardInline

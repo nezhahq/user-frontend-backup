@@ -114,7 +114,7 @@ export default function ServerDetailOverview({
 				{name}
 			</div>
 			<section className="flex flex-wrap gap-2 mt-3">
-				<Card className="rounded-[10px] bg-transparent border-none shadow-none">
+				<Card className="rounded-[10px] bg-transparent border-none shadow-none ring-0">
 					<CardContent className="px-1.5 py-1">
 						<section className="flex flex-col items-start gap-0.5">
 							<p className="text-xs text-muted-foreground">
@@ -135,7 +135,7 @@ export default function ServerDetailOverview({
 					</CardContent>
 				</Card>
 				{online && (
-					<Card className="rounded-[10px] bg-transparent border-none shadow-none">
+					<Card className="rounded-[10px] bg-transparent border-none shadow-none ring-0">
 						<CardContent className="px-1.5 py-1">
 							<section className="flex flex-col items-start gap-0.5">
 								<p className="text-xs text-muted-foreground">
@@ -152,7 +152,7 @@ export default function ServerDetailOverview({
 					</Card>
 				)}
 				{version && (
-					<Card className="rounded-[10px] bg-transparent border-none shadow-none">
+					<Card className="rounded-[10px] bg-transparent border-none shadow-none ring-0">
 						<CardContent className="px-1.5 py-1">
 							<section className="flex flex-col items-start gap-0.5">
 								<p className="text-xs text-muted-foreground">
@@ -164,7 +164,7 @@ export default function ServerDetailOverview({
 					</Card>
 				)}
 				{arch && (
-					<Card className="rounded-[10px] bg-transparent border-none shadow-none">
+					<Card className="rounded-[10px] bg-transparent border-none shadow-none ring-0">
 						<CardContent className="px-1.5 py-1">
 							<section className="flex flex-col items-start gap-0.5">
 								<p className="text-xs text-muted-foreground">
@@ -177,7 +177,7 @@ export default function ServerDetailOverview({
 				)}
 
 				{mem_total ? (
-					<Card className="rounded-[10px] bg-transparent border-none shadow-none">
+					<Card className="rounded-[10px] bg-transparent border-none shadow-none ring-0">
 						<CardContent className="px-1.5 py-1">
 							<section className="flex flex-col items-start gap-0.5">
 								<p className="text-xs text-muted-foreground">
@@ -190,7 +190,7 @@ export default function ServerDetailOverview({
 				) : null}
 
 				{disk_total ? (
-					<Card className="rounded-[10px] bg-transparent border-none shadow-none">
+					<Card className="rounded-[10px] bg-transparent border-none shadow-none ring-0">
 						<CardContent className="px-1.5 py-1">
 							<section className="flex flex-col items-start gap-0.5">
 								<p className="text-xs text-muted-foreground">
@@ -206,7 +206,7 @@ export default function ServerDetailOverview({
 					<TooltipProvider delayDuration={100}>
 						<Tooltip>
 							<TooltipTrigger asChild>
-								<Card className="rounded-[10px] bg-transparent border-none shadow-none">
+								<Card className="rounded-[10px] bg-transparent border-none shadow-none ring-0">
 									<CardContent className="px-1.5 py-1">
 										<section className="flex flex-col items-start gap-0.5">
 											<p className="text-xs text-muted-foreground">
@@ -236,7 +236,7 @@ export default function ServerDetailOverview({
 			</section>
 			<section className="flex flex-wrap gap-2 mt-1">
 				{platform && (
-					<Card className="rounded-[10px] bg-transparent border-none shadow-none">
+					<Card className="rounded-[10px] bg-transparent border-none shadow-none ring-0">
 						<CardContent className="px-1.5 py-1">
 							<section className="flex flex-col items-start gap-0.5">
 								<p className="text-xs text-muted-foreground">
@@ -251,7 +251,7 @@ export default function ServerDetailOverview({
 					</Card>
 				)}
 				{cpu_info.length > 0 && (
-					<Card className="rounded-[10px] bg-transparent border-none shadow-none">
+					<Card className="rounded-[10px] bg-transparent border-none shadow-none ring-0">
 						<CardContent className="px-1.5 py-1">
 							<section className="flex flex-col items-start gap-0.5">
 								<p className="text-xs text-muted-foreground">{"CPU"}</p>
@@ -261,7 +261,7 @@ export default function ServerDetailOverview({
 					</Card>
 				)}
 				{gpu_info.length > 0 && (
-					<Card className="rounded-[10px] bg-transparent border-none shadow-none">
+					<Card className="rounded-[10px] bg-transparent border-none shadow-none ring-0">
 						<CardContent className="px-1.5 py-1">
 							<section className="flex flex-col items-start gap-0.5">
 								<p className="text-xs text-muted-foreground">{"GPU"}</p>
@@ -272,7 +272,7 @@ export default function ServerDetailOverview({
 				)}
 			</section>
 			<section className="flex flex-wrap gap-2 mt-1">
-				<Card className="rounded-[10px] bg-transparent border-none shadow-none">
+				<Card className="rounded-[10px] bg-transparent border-none shadow-none ring-0">
 					<CardContent className="px-1.5 py-1">
 						<section className="flex flex-col items-start gap-0.5">
 							<p className="text-xs text-muted-foreground">{"Load"}</p>
@@ -283,7 +283,7 @@ export default function ServerDetailOverview({
 					</CardContent>
 				</Card>
 				{net_out_transfer ? (
-					<Card className="rounded-[10px] bg-transparent border-none shadow-none">
+					<Card className="rounded-[10px] bg-transparent border-none shadow-none ring-0">
 						<CardContent className="px-1.5 py-1">
 							<section className="flex flex-col items-start gap-0.5">
 								<p className="text-xs text-muted-foreground">
@@ -302,7 +302,7 @@ export default function ServerDetailOverview({
 					</Card>
 				) : null}
 				{net_in_transfer ? (
-					<Card className="rounded-[10px] bg-transparent border-none shadow-none">
+					<Card className="rounded-[10px] bg-transparent border-none shadow-none ring-0">
 						<CardContent className="px-1.5 py-1">
 							<section className="flex flex-col items-start gap-0.5">
 								<p className="text-xs text-muted-foreground">
@@ -347,7 +347,7 @@ export default function ServerDetailOverview({
 			</section>
 
 			<section className="flex flex-wrap gap-2 mt-1">
-				<Card className="rounded-[10px] bg-transparent border-none shadow-none">
+				<Card className="rounded-[10px] bg-transparent border-none shadow-none ring-0">
 					<CardContent className="px-1.5 py-1">
 						<section className="flex flex-col items-start gap-0.5">
 							<p className="text-xs text-muted-foreground">
@@ -359,7 +359,7 @@ export default function ServerDetailOverview({
 						</section>
 					</CardContent>
 				</Card>
-				<Card className="rounded-[10px] bg-transparent border-none shadow-none">
+				<Card className="rounded-[10px] bg-transparent border-none shadow-none ring-0">
 					<CardContent className="px-1.5 py-1">
 						<section className="flex flex-col items-start gap-0.5">
 							<p className="text-xs text-muted-foreground">

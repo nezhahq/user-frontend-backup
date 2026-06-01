@@ -58,7 +58,7 @@ export default function ServerCardInline({
 		<section>
 			<Card
 				className={cn(
-					"flex items-center lg:flex-row justify-start gap-3 p-3 md:px-5 cursor-pointer hover:bg-accent/50 transition-colors min-w-[900px] w-full",
+					"flex w-full min-w-[900px] cursor-pointer items-center justify-start gap-3 p-3 transition-all hover:shadow-sm hover:ring-stone-300 md:px-5 lg:flex-row dark:hover:ring-stone-700",
 					{
 						"bg-card/70": customBackgroundImage,
 					},
