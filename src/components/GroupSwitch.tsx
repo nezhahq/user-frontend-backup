@@ -84,7 +84,7 @@ export default function GroupSwitch({
 						ref={tagRefs.current[index]}
 						onClick={() => setCurrentTab(tab)}
 						className={cn(
-							"relative cursor-pointer rounded-3xl px-2.5 py-[8px] text-[13px] font-semibold transition-all duration-500",
+							"relative cursor-pointer rounded-3xl px-2.5 py-2 text-[13px] font-semibold transition-all duration-500  ease-in-out hover:text-stone-950  hover:dark:text-stone-50",
 							currentTab === tab
 								? "text-black dark:text-white"
 								: "text-stone-400 dark:text-stone-500",
